@@ -39,9 +39,6 @@ Cenário: Visualização
     Quando submeto meus dados de aluno
     Então devo ver meus empréstimos atuais e histórico de empréstimos
 
-Cenário: Visualização
-    Dado que acessei e submeti meus dados na página de Visualização
-    Quando
 
 Funcionalidade: Devolver
 Eu como aluno
@@ -57,8 +54,3 @@ Cenário: Devolvido com atraso
     Dado que devolvi um livro
     Quando ultrapassei o prazo de três dias
     Então devo ver o valor da multa de R$ 2,00 por dia
-
-Cenário: Devolução registrada
-    Dado que devolvi um livro
-    Quando dentro do prazo
-    Então estará gravado que devolvi o livro no dia, garantindo a integridade
